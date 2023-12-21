@@ -1,6 +1,6 @@
 module AdventOfCode
   module Year2023
-    class AdventOfCode::Year2023::Day18
+    class AdventOfCode::Year2023::Day19
       attr_accessor :workflows, :parts, :workflow_graph
 
       class Vertex
@@ -282,6 +282,6 @@ module AdventOfCode
   end
 end
 
-a = AdventOfCode::Year2023::Day18.new('aoc19.txt')
+a = AdventOfCode::Year2023::Day19.new('aoc19.txt')
 puts a.part_1
 puts a.part_2
